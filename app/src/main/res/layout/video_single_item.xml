@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="0dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3:26"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/thumbnail"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="8dp"
+            android:paddingBottom="3dp"
+            android:background="@drawable/transparent_shape"
+            android:layout_marginBottom="8dp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/icon_card"
+            android:layout_marginLeft="10dp"
+            app:cardCornerRadius="50dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/thumbnail"
+            app:cardElevation="0dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/channelicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                />
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:text="TextView"
+            app:layout_constraintStart_toEndOf="@+id/icon_card"
+            app:layout_constraintTop_toBottomOf="@+id/thumbnail" />
+
+        <TextView
+            android:id="@+id/channelname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Channel Name"
+            app:layout_constraintStart_toEndOf="@+id/icon_card"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/viewstext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="viewstext"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintStart_toEndOf="@+id/channelname"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/datetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Date"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintStart_toEndOf="@+id/viewstext"
+            app:layout_constraintTop_toTopOf="@+id/viewstext" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

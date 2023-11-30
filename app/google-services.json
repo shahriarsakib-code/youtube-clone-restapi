@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "714645105583",
+    "project_id": "mytube-cd828",
+    "storage_bucket": "mytube-cd828.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714645105583:android:8a2dea814684d544cd5d5a",
+        "android_client_info": {
+          "package_name": "com.sakibpractice.mytube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714645105583-79o123156rbc0ob2ds96ejcu8faj5tu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sakibpractice.mytube",
+            "certificate_hash": "509bfd2e247fe5ab858f5260c9a1f4687e2258f2"
+          }
+        },
+        {
+          "client_id": "714645105583-d8hr8ap8qors0ig3s4jr1hjctjprvtpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ2pmn7uGoPFh29WhEJEgbr6tpmgciRbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714645105583-d8hr8ap8qors0ig3s4jr1hjctjprvtpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/youtube_error"
+        android:id="@+id/error_image"/>
+
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/error_image"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/shape_rhino"
+        android:id="@+id/signingoogle">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/google"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SignIn With Google"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>-->
+
+</RelativeLayout>
